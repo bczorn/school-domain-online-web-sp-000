@@ -34,6 +34,7 @@ class School
     @@roster.each do |i, j|
     j.sort_by {|x,y| y}
     end
+    l = @@roster
     l.flatten
     l.to_h
   end
