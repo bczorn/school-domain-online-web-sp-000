@@ -36,5 +36,4 @@ class School
       l.sort
     end
   end
-  end
 end
