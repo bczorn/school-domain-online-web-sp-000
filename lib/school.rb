@@ -31,9 +31,7 @@ class School
   end
   
   def sort
-    @@roster.each_key do |i|
-      i.each_value {|x| x.sort}
-    end
+    @@roster.sort_by
 
   end
 end
