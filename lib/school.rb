@@ -34,6 +34,7 @@ class School
     l = @@roster.sort
     l.sort
     l.flatten
+    l.sort
     l.to_h
   end
 end
