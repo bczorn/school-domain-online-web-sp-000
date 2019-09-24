@@ -24,7 +24,7 @@ class School
   end
   
   def grade(grade)
-    @@roster.fetch(grade)
+    @@roster.fetch_values(grade)
     
   end
   
