@@ -14,7 +14,7 @@ class School
   end
   
    def add_student(student, grade)
-    if @@roster.empty?
+    if @@roster.has_key
       @@roster[grade] = []
       @@roster[grade] << student
     else
