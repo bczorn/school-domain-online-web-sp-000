@@ -31,5 +31,5 @@ class School
   end
   
   def sort
-   @@roster.each
+   l = @@roster.invert
 end
