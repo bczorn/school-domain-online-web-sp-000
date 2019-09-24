@@ -31,7 +31,8 @@ class School
   end
   
   def sort
-    @@roster.sort_by{|k, v| v}.to_h
-
+    @@roster.each do |k, v|
+    k.sort_by{|k, v| v}.to_h
+  end
   end
 end
