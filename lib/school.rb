@@ -32,7 +32,7 @@ class School
   
   def sort
     l = @@roster.sort
-    l.to_h
-    l
+    l.flatten
+    l.to_hash
   end
 end
