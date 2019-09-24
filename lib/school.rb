@@ -15,7 +15,6 @@ class School
   def add_student(student, grade)
     @roster.store(grade, student)
     
-    
   end
   
   def grade(student)
