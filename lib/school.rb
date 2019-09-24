@@ -13,7 +13,7 @@ class School
   end
   
   def add_student(student, grade)
-    @roster.merge({})
+    @roster.merge({grade => student})
     
     
   end
