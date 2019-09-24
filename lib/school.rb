@@ -31,10 +31,9 @@ class School
   end
   
   def sort
-    @@roster.each do |i|
+    @@roster.each do |i, j|
     i.sort_by {|x,y| y}
     end
-    l = @@roster
     l.flatten
     l.to_h
   end
