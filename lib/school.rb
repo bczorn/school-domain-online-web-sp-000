@@ -19,6 +19,7 @@ class School
       @@roster[grade] << student
     else
       @@roster[grade] << student
+      @@roster.flatten
     end
     
   end
