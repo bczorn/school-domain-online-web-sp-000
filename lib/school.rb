@@ -31,7 +31,11 @@ class School
   end
   
   def sort
-   @@roster.each_value {|x| puts x}
+   @@roster.each_value do |x|
+    x.each do |y|
+      y.sort
+    end
+  end
     
   end
 end
