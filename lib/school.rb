@@ -32,7 +32,7 @@ class School
   
   def sort
     @@roster.each do |k, v|
-    k.each do |x|
+    v.each do |x|
       x.sort
     end
   end
