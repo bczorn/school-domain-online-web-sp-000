@@ -24,7 +24,6 @@ class School
   end
   
   def grade(grade)
-    @@roster.flatten(grade)
     @@roster.fetch_values(grade)
   end
   
