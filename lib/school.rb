@@ -25,7 +25,6 @@ class School
   
   def grade(grade)
     @@roster.fetch_values(grade)
-    
   end
   
 end
