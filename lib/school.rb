@@ -30,4 +30,7 @@ class School
     b
   end
   
+  def sort
+    
+  
 end
