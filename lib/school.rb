@@ -31,7 +31,7 @@ class School
   end
   
   def sort
-    l = @@roster.sort_by {|x,y| y}
+    l = @@roster.sort_by {|x,y| x}
 
     l.flatten
     l.to_h
