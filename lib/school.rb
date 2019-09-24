@@ -31,7 +31,7 @@ class School
   end
   
   def sort
-    @@roster.each 
+    @@roster.each_key {
     j.sort
     end
 
