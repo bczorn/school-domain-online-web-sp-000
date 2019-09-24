@@ -31,7 +31,7 @@ class School
   end
   
   def sort
-   @@roster.each_value 
-     k.sort_value
+   @@roster.each_value {|x| x.sort}
+    
   end
 end
