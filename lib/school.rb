@@ -1,7 +1,7 @@
 # code here!
 class School
 
-  attr_accessor :school, :student
+  attr_accessor :school, :student, :roster
   
   
   def initialize(school)
@@ -10,7 +10,7 @@ class School
   end
   
   def roster
-    @@roster = Hash.new
+    @@roster
   end
   
   def add_student(student, grade)
