@@ -32,6 +32,7 @@ class School
   
   def sort
     l = @@roster.sort
+    l.sort
     l.flatten
     l.to_h
   end
