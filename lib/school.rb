@@ -32,7 +32,9 @@ class School
   
   def sort
     l = @@roster.sort
-    l.sort
+    l.each do |x|
+      x.sort!
+    end
     l.flatten
     l.sort
     l.to_h
