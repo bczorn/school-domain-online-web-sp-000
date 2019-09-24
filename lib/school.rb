@@ -31,7 +31,7 @@ class School
   end
   
   def sort
-   @@roster.each do |k, v|
+   @@roster.each_value 
      k.sort_value
   end
 end
