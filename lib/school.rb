@@ -31,7 +31,9 @@ class School
   end
   
   def sort
-    l = @@roster.sort_by {|x,y| x}
+    @@roster.each do |i|
+    i.sort_by {|x,y| y}
+  end
 
     l.flatten
     l.to_h
