@@ -31,6 +31,8 @@ class School
   end
   
   def sort
-    @@roster.sort
+    l = @@roster.sort
+    l.to_h
+    l
   end
 end
