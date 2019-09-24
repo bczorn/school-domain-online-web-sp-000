@@ -9,11 +9,11 @@ class School
   end
   
   def roster
-    Roster = Hash.new
+    @@roster = Hash.new
   end
   
   def add_student(student, grade)
-    Roster.store(grade, student)
+    @@roster.store(grade, student)
     
   end
   
