@@ -36,7 +36,6 @@ class School
       x.sort!
     end
     l.flatten
-    l.sort
     l.to_h
   end
 end
