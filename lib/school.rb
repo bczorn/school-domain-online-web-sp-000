@@ -31,9 +31,9 @@ class School
   end
   
   def sort
-    @@roster.each do |k, v|
-    l = k.fetch_values
-      l.sort
-    end
+   l = @@roster.invert
+   l.sort
+   k = l.invert
+   k
   end
 end
