@@ -31,7 +31,7 @@ class School
   end
   
   def sort
-    l = @@roster.sort
+    l = @@roster.sort {
     l.each do |x|
       x.sort
     end
