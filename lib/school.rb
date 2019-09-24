@@ -31,7 +31,7 @@ class School
   end
   
   def sort
-    @@roster.each do |i|
+    @@roster.each 
     j.sort
     end
 
