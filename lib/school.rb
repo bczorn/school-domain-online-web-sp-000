@@ -19,12 +19,12 @@ class School
       @@roster[grade] << student
     else
       @@roster[grade] << student
-      @@roster.flatten(grade)
     end
     
   end
   
   def grade(grade)
+    @@roster.flatten(grade)
     @@roster.fetch_values(grade)
   end
   
