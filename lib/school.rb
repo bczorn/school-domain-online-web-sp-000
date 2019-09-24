@@ -23,8 +23,8 @@ class School
     
   end
   
-  def grade(student)
-    @@roster.fetch(student)
+  def grade(grade)
+    @@roster.fetch(grade)
     
   end
   
