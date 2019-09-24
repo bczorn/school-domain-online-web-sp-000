@@ -31,7 +31,7 @@ class School
   end
   
   def sort
-    @@roster.sort_by(student)
+    @@roster.sort_by(:student)
 
   end
 end
