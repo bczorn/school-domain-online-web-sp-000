@@ -31,10 +31,8 @@ class School
   end
   
   def sort
-    l = @@roster.sort {
-    l.each do |x|
-      x.sort
-    end
+    l = @@roster.sort {|x,y| y}
+
     l.flatten
     l.to_h
   end
