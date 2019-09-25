@@ -31,7 +31,6 @@ class School
   end
   
   def sort
-   l = @@roster.invert
-   l.each 
+   @@roster.each_pair {|x| x.sort}
  end
 end
