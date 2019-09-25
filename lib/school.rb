@@ -33,5 +33,6 @@ class School
   def sort
    @@roster.each do |x, y|
      @@roster[x].sort
+   end
  end
 end
