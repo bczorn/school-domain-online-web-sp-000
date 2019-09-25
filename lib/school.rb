@@ -31,6 +31,7 @@ class School
   end
   
   def sort
-   @@roster.each_pair {|x, y| y.sort}
+   @@roster.each do |x, y|
+     @@roster[x].sort
  end
 end
