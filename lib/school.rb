@@ -31,8 +31,7 @@ class School
   end
   
   def sort
-   @@roster.each do |x, y|
-     @@roster[x].sort
+   l = @@roster.grade
+   l.sort
    end
- end
 end
