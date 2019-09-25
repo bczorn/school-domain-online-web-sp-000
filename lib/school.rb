@@ -31,7 +31,7 @@ class School
   end
   
   def sort
-   l = @@roster.grade
-   l.sort
+   
+   
    end
 end
